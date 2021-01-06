@@ -47,7 +47,7 @@ raspberry pi
 ------------------------------
 	vim /home/pi/updateV2RAY.py
 
-	(内容查看<https://github.com/killer-cc/Breakthrough-the-limit-of-router/tree/main/pi-home> updateV2RAY.py)
+	(内容查看<https://github.com/killer-cc/Breakthrough-the-limit-of-router/tree/main/pi-home/> updateV2RAY.py)
 
 設定資料庫
 ------------------------------
