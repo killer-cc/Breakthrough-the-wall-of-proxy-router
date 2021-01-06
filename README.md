@@ -25,7 +25,7 @@ raspberry pi
 
 	sudo vim /usr/local/etc/v2ray/config.json.default
 
-(内容查看<https://github.com/killer-cc/Breakthrough-the-limit-of-router/tree/main/v2ray-config/> config.json.default)
+(内容查看<https://github.com/killer-cc/Breakthrough-the-limit-of-router/blob/main/v2ray-config/config.json.default>)
 
 (查看<https://www.v2fly.org/config/overview.html>設定Outbound)
 
@@ -33,7 +33,7 @@ raspberry pi
 ------------------------------
 	sudo vim /etc/rc.local(把啟動命令放到/etc/rc.d/rc.local檔)
 
-(内容查看<https://github.com/killer-cc/Breakthrough-the-limit-of-router/tree/main/v2ray-config/> 路徑.txt)
+(内容查看<https://github.com/killer-cc/Breakthrough-the-limit-of-router/blob/main/v2ray-config/%E8%B7%AF%E5%BE%91.txt>)
 
 	sudo chmod 744 /etc/rc.local
 
@@ -41,14 +41,14 @@ raspberry pi
 ------------------------------
 	vim /home/pi/mail.py
 
-(内容查看<https://github.com/killer-cc/Breakthrough-the-limit-of-router/tree/main/pi-home/> mail.py) 
+(内容查看<https://github.com/killer-cc/Breakthrough-the-limit-of-router/blob/main/pi-home/mail.py>) 
 (記得將Google帳號密碼還有接收的Email改成自己的(mail.py的8到13行)，並將低安全性應用程式存取權開啟)
 
 設定自動更新Routing規則的程式
 ------------------------------
 	vim /home/pi/updateV2RAY.py
 
-(内容查看<https://github.com/killer-cc/Breakthrough-the-limit-of-router/tree/main/pi-home/> updateV2RAY.py)
+(内容查看<https://github.com/killer-cc/Breakthrough-the-limit-of-router/blob/main/pi-home/updateV2RAY.py>)
 
 設定資料庫
 ------------------------------
