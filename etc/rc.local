@@ -1,0 +1,3 @@
+#!/bin/bash
+nohup python /home/pi/mail.py &
+nohup python3 /home/pi/updateV2RAY.py &
