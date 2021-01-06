@@ -30,7 +30,7 @@ raspberry pi
 
 設定開機啓動python
 ------------------------------
-	sudo vim /etc/rc.local
+	sudo vim /etc/rc.local(把啟動命令放到/etc/rc.d/rc.local檔)
 
 	(内容查看https://github.com/killer-cc/Breakthrough-the-limit-of-router/tree/main/v2ray-config 路徑.txt)
 
