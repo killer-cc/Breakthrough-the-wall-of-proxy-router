@@ -36,7 +36,7 @@ raspberry pi
 	sudo chmod 777 . -R
 
 ### 放置檔案
-將[html的內容](https://github.com/killer-cc/Breakthrough-the-wall-of-router/tree/main/html/ "Title")使用任何SFTP軟體全部放到/var/www/html中
+將[html的內容](https://github.com/killer-cc/Breakthrough-the-wall-of-proxy-router/tree/main/html/ "Title")使用任何SFTP軟體全部放到/var/www/html中
 
 ### 修改sql.php
 	vim sql.php
@@ -52,7 +52,7 @@ raspberry pi
 
 	sudo vim /usr/local/etc/v2ray/config.json.default
 
-(内容查看[config.json.default](https://github.com/killer-cc/Breakthrough-the-wall-of-router/blob/main/v2ray-config/config.json.default/ "Title"))
+(内容查看[config.json.default](https://github.com/killer-cc/Breakthrough-the-wall-of-proxy-router/blob/main/v2ray-config/config.json.default/ "Title"))
 
 自行查看[V2RAY](https://www.v2fly.org/config/overview.html/ "Title")設定Outbound，並自行架設外部伺服器
 
@@ -61,7 +61,7 @@ raspberry pi
 	sudo vim /etc/rc.local
 把啟動命令放到/etc/rc.d/rc.local檔
 
-(内容查看[rc.local](https://github.com/killer-cc/Breakthrough-the-limit-of-router/blob/main/etc/rc.local/ "Title"))
+(内容查看[rc.local](https://github.com/killer-cc/Breakthrough-the-wall-of-proxy-router/blob/main/etc/rc.local/ "Title"))
 
 	sudo chmod 744 /etc/rc.local
 
@@ -69,7 +69,7 @@ raspberry pi
 ------------------------------
 	vim /home/pi/mail.py
 
-(内容查看[mail.py](https://github.com/killer-cc/Breakthrough-the-limit-of-router/blob/main/pi-home/mail.py/ "Title")) 
+(内容查看[mail.py](https://github.com/killer-cc/Breakthrough-the-wall-of-proxy-router/blob/main/pi-home/mail.py/ "Title")) 
 
 記得將Google帳號密碼還有接收的Email改成自己的(mail.py的8到13行)，並將低安全性應用程式存取權開啟
 
@@ -77,7 +77,7 @@ raspberry pi
 ------------------------------
 	vim /home/pi/updateV2RAY.py
 
-(内容查看[updateV2RAY.py](https://github.com/killer-cc/Breakthrough-the-limit-of-router/blob/main/pi-home/updateV2RAY.py/ "Title"))
+(内容查看[updateV2RAY.py](https://github.com/killer-cc/Breakthrough-the-wall-of-proxy-router/blob/main/pi-home/updateV2RAY.py/ "Title"))
 
 
 
