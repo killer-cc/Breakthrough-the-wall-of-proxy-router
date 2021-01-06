@@ -25,14 +25,14 @@ raspberry pi
 
 	sudo vim /usr/local/etc/v2ray/config.json.default
 
-	(内容查看https://github.com/killer-cc/Breakthrough-the-limit-of-router/tree/main/v2ray-config 裡的兩個檔案)
+	(内容查看https://github.com/killer-cc/Breakthrough-the-limit-of-router/tree/main/v2ray-config config.json.default)
 	(查看https://www.v2fly.org/config/overview.html設定Outbound)
 
 設定開機啓動python
 ------------------------------
 	sudo vim /etc/rc.local
 
-	(内容查看https://github.com/killer-cc/Breakthrough-the-limit-of-router/tree/main/pi-home)
+	(内容查看https://github.com/killer-cc/Breakthrough-the-limit-of-router/tree/main/v2ray-config 路徑.txt)
 
 	sudo chmod 744 /etc/rc.local
 
