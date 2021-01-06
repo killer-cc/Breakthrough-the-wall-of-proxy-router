@@ -61,7 +61,7 @@ raspberry pi
 	sudo vim /etc/rc.local
 把啟動命令放到/etc/rc.d/rc.local檔
 
-(内容查看<https://github.com/killer-cc/Breakthrough-the-limit-of-router/blob/main/v2ray-config/%E8%B7%AF%E5%BE%91.txt>)
+(内容查看[rc.local](https://github.com/killer-cc/Breakthrough-the-limit-of-router/blob/main/etc/rc.local/ "Title"))
 
 	sudo chmod 744 /etc/rc.local
 
