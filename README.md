@@ -35,7 +35,8 @@ raspberry pi
 ### 取得權限
 	sudo chmod 777 . -R
 
-將[html的內容]<https://github.com/killer-cc/Breakthrough-the-limit-of-router/tree/main/html>使用任何SFTP軟體全部放到/var/www/html中
+#### 放置檔案
+將[html的內容](https://github.com/killer-cc/Breakthrough-the-limit-of-router/tree/main/html/ "Title")使用任何SFTP軟體全部放到/var/www/html中
 
 ### 修改sql.php
 	vim sql.php
