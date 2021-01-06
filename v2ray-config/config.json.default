@@ -33,11 +33,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "new.rc9453.com",
+                        "address": [address],
                         "port": 443,
                         "users": [
                             {
-                                "id": "e09bc769-c155-426a-81fc-a66a7a753e83",
+                                "id": [],
                                 "alterId": 64,
                                 "security": "none"
                             }
