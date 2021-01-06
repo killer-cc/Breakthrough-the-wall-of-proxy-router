@@ -84,7 +84,7 @@ raspberry pi
 
 使用方法
 ------------------------------
-	瀏覽器打開http://[raspberry_pi_IP]
-	選擇Domain/IP,輸入並保存
-	電腦及手機使用Socks客戶端連接到	[raspberry_pi_IP]:1080
+	瀏覽器打開*http://[raspberry_pi_IP]*
+	選擇*Domain/IP*,輸入並保存
+	電腦及手機使用Socks客戶端連接到*[raspberry_pi_IP]:1080*
 	完成
