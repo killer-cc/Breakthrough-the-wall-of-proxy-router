@@ -52,7 +52,7 @@
                     "allowInsecure": false
                 },
                 "wsSettings":{
-                    "path": "/path"
+                    "path": "/[path]"
                 },
                 "sockopt":{
                     "mark": 255
