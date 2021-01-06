@@ -13,7 +13,7 @@ raspberry pi
 ------------------------------
 	sudo mysql
 
-### 進入MariaDB後
+### 建立資料庫
 	create database proxy;
 	use proxy;
 
