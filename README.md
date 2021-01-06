@@ -54,7 +54,7 @@ raspberry pi
 
 (内容查看[config.json.default](https://github.com/killer-cc/Breakthrough-the-limit-of-router/blob/main/v2ray-config/config.json.default/ "Title"))
 
-(查看[V2RAY](https://www.v2fly.org/config/overview.html/ "Title")設定Outbound)
+自行查看[V2RAY](https://www.v2fly.org/config/overview.html/ "Title")設定Outbound
 
 設定開機啓動python
 ------------------------------
