@@ -26,7 +26,8 @@ raspberry pi
 	sudo vim /usr/local/etc/v2ray/config.json.default
 
 (内容查看<https://github.com/killer-cc/Breakthrough-the-limit-of-router/tree/main/v2ray-config/> config.json.default)
-(查看<https://www.v2fly.org/config/overview.html/>設定Outbound)
+
+(查看<https://www.v2fly.org/config/overview.html>設定Outbound)
 
 設定開機啓動python
 ------------------------------
