@@ -1,0 +1,1 @@
+/usr/local/etc/v2ray

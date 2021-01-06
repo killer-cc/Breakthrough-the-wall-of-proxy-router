@@ -1,0 +1,78 @@
+{
+    "inbounds":[
+        {
+            "listen": "0.0.0.0",
+            "port": 1080,
+            "protocol": "socks",
+            "sniffing": {
+                "enabled": true,
+                "destOverride": [ "http", "tls" ]
+            },
+            "settings":{
+                "auth": "noauth",
+                "udp": false
+            }
+        }
+    ],
+    "outbounds":[
+        {
+            "tag": "direct",
+            "protocol": "freedom",
+            "settings": {
+                "domainStrategy": "UseIP"
+            },
+            "streamSettings": {
+                "sockopt":{
+                    "mark": 255
+                }
+            }
+        },
+        {
+            "tag": "proxy",
+            "protocol": "vmess",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "new.rc9453.com",
+                        "port": 443,
+                        "users": [
+                            {
+                                "id": "e09bc769-c155-426a-81fc-a66a7a753e83",
+                                "alterId": 64,
+                                "security": "none"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "ws",
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": false
+                },
+                "wsSettings":{
+                    "path": "/wtfisgoingon"
+                },
+                "sockopt":{
+                    "mark": 255
+                }
+            }
+        }
+    ],
+    "routing":{
+        "domainStrategy": "IPOnDemand",
+        "rules": [
+            {
+                "type": "field",
+		"domain": ["example.com"],
+                "outboundTag": "proxy"
+            },
+            {
+                "type": "field",
+		"ip": null,
+                "outboundTag": "proxy"
+            }
+        ]
+    }
+}
