@@ -33,11 +33,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": [address],
+                        "address": "[address]",
                         "port": 443,
                         "users": [
                             {
-                                "id": [],
+                                "id": "[uuid]",
                                 "alterId": 64,
                                 "security": "none"
                             }
