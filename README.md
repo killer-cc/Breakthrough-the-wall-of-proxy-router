@@ -70,6 +70,7 @@ raspberry pi
 	vim /home/pi/mail.py
 
 (内容查看[mail.py](https://github.com/killer-cc/Breakthrough-the-limit-of-router/blob/main/pi-home/mail.py/ "Title")) 
+
 記得將Google帳號密碼還有接收的Email改成自己的(mail.py的8到13行)，並將低安全性應用程式存取權開啟
 
 設定自動更新Routing規則的程式
