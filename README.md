@@ -25,14 +25,14 @@ raspberry pi
 
 	sudo vim /usr/local/etc/v2ray/config.json.default
 
-	(内容查看https://github.com/killer-cc/Breakthrough-the-limit-of-router/tree/main/v2ray-config) 
+	(内容查看https://github.com/killer-cc/Breakthrough-the-limit-of-router/tree/main/v2ray-config 裡的兩個檔案)
 	(查看https://www.v2fly.org/config/overview.html設定Outbound)
 
 設定開機啓動python
 ------------------------------
 	sudo vim /etc/rc.local
 
-	(内容查看[github_Link])
+	(内容查看https://github.com/killer-cc/Breakthrough-the-limit-of-router/tree/main/pi-home)
 
 	sudo chmod 744 /etc/rc.local
 
@@ -40,13 +40,14 @@ raspberry pi
 ------------------------------
 	vim /home/pi/mail.py
 
-	(内容查看[github_Link]) (記得將Google帳號密碼還有接收的Email改成自己的，並將低安全性應用程式存取權開啟)
+	(内容查看https://github.com/killer-cc/Breakthrough-the-limit-of-router/tree/main/pi-home mail.py) 
+	(記得將Google帳號密碼還有接收的Email改成自己的，並將低安全性應用程式存取權開啟)
 
 設定自動更新Routing規則的程式
 ------------------------------
 	vim /home/pi/updateV2RAY.py
 
-	(内容查看[github_Link])
+	(内容查看https://github.com/killer-cc/Breakthrough-the-limit-of-router/tree/main/pi-home updateV2RAY.py)
 
 設定資料庫
 ------------------------------
