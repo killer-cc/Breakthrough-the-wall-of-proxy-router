@@ -32,12 +32,12 @@ raspberry pi
 ------------------------------
 	cd /var/www/html
 
-	#取得權限
+### 取得權限
 	sudo chmod 777 . -R
 
-	將html的內容使用任何SFTP軟體全部放到文件夾中
+將[html的內容]<https://github.com/killer-cc/Breakthrough-the-limit-of-router/tree/main/html>使用任何SFTP軟體全部放到文件夾中
 
-	#修改sql.php
+### 修改sql.php
 	vim sql.php
 	將$password = 後面改成設定資料庫時的密碼
 
