@@ -52,9 +52,9 @@ raspberry pi
 
 	sudo vim /usr/local/etc/v2ray/config.json.default
 
-(内容查看<https://github.com/killer-cc/Breakthrough-the-limit-of-router/blob/main/v2ray-config/config.json.default>)
+(内容查看[config.json.default](https://github.com/killer-cc/Breakthrough-the-limit-of-router/blob/main/v2ray-config/config.json.default/ "Title"))
 
-(查看<https://www.v2fly.org/config/overview.html>設定Outbound)
+(查看[V2RAY](https://www.v2fly.org/config/overview.html/ "Title")設定Outbound)
 
 設定開機啓動python
 ------------------------------
@@ -68,14 +68,14 @@ raspberry pi
 ------------------------------
 	vim /home/pi/mail.py
 
-(内容查看<https://github.com/killer-cc/Breakthrough-the-limit-of-router/blob/main/pi-home/mail.py>) 
+(内容查看[mail.py](https://github.com/killer-cc/Breakthrough-the-limit-of-router/blob/main/pi-home/mail.py/ "Title")) 
 (記得將Google帳號密碼還有接收的Email改成自己的(mail.py的8到13行)，並將低安全性應用程式存取權開啟)
 
 設定自動更新Routing規則的程式
 ------------------------------
 	vim /home/pi/updateV2RAY.py
 
-(内容查看<https://github.com/killer-cc/Breakthrough-the-limit-of-router/blob/main/pi-home/updateV2RAY.py>)
+(内容查看[updateV2RAY.py](https://github.com/killer-cc/Breakthrough-the-limit-of-router/blob/main/pi-home/updateV2RAY.py/ "Title"))
 
 
 
