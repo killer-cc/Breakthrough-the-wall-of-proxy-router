@@ -36,7 +36,7 @@ raspberry pi
 	sudo chmod 777 . -R
 
 ### 放置檔案
-將[html的內容](https://github.com/killer-cc/Breakthrough-the-limit-of-router/tree/main/html/ "Title")使用任何SFTP軟體全部放到/var/www/html中
+將[html的內容](https://github.com/killer-cc/Breakthrough-the-wall-of-router/tree/main/html/ "Title")使用任何SFTP軟體全部放到/var/www/html中
 
 ### 修改sql.php
 	vim sql.php
@@ -52,7 +52,7 @@ raspberry pi
 
 	sudo vim /usr/local/etc/v2ray/config.json.default
 
-(内容查看[config.json.default](https://github.com/killer-cc/Breakthrough-the-limit-of-router/blob/main/v2ray-config/config.json.default/ "Title"))
+(内容查看[config.json.default](https://github.com/killer-cc/Breakthrough-the-wall-of-router/blob/main/v2ray-config/config.json.default/ "Title"))
 
 自行查看[V2RAY](https://www.v2fly.org/config/overview.html/ "Title")設定Outbound，並自行架設外部伺服器
 
