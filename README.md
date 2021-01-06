@@ -40,7 +40,7 @@ raspberry pi
 
 ### 修改sql.php
 	vim sql.php
-	將$password = 後面改成設定資料庫時的密碼
+將$password = 後面改成設定資料庫時的密碼
 
 安裝V2RAY
 ------------------------------
