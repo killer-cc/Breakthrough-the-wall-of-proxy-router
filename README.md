@@ -13,19 +13,19 @@ raspberry pi
 ------------------------------
 	sudo mysql
 
-###進入MariaDB後
+###進入MariaDB後###
 	create database proxy;
 	use proxy;
 
-###設定專用帳號
+###設定專用帳號###
 	grant all privileges on proxy.* to 'proxy'@'localhost' identified by '[密碼]' with grant option;
 	flush privileges;
 
-###建立table
+###建立table###
 	create table domains( domain VARCHAR(100) NOT NULL,PRIMARY KEY (domain));
 	create table ips( ip VARCHAR(100) NOT NULL,PRIMARY KEY (ip));
 		
-###設定完成，退出
+###設定完成，退出###
 	exit
 		
 設定網頁
