@@ -52,7 +52,7 @@
                     "allowInsecure": false
                 },
                 "wsSettings":{
-                    "path": "/wtfisgoingon"
+                    "path": "/path"
                 },
                 "sockopt":{
                     "mark": 255
