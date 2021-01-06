@@ -41,7 +41,7 @@ raspberry pi
 	vim /home/pi/mail.py
 
 	(内容查看https://github.com/killer-cc/Breakthrough-the-limit-of-router/tree/main/pi-home mail.py) 
-	(記得將Google帳號密碼還有接收的Email改成自己的，並將低安全性應用程式存取權開啟)
+	(記得將Google帳號密碼還有接收的Email改成自己的，並將低安全性應用程式存取權開啟(mail.py的8到13行))
 
 設定自動更新Routing規則的程式
 ------------------------------
