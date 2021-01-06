@@ -9,11 +9,38 @@ raspberry pi
 ------------------------------
 	sudo mysql_secure_installation 
 
-安裝 PHPMyAdmin
+設定資料庫
 ------------------------------
-	sudo apt install phpmyadmin -y
+	sudo mysql
 
-	按下空格選擇 apache2 並 Enter，其他預設
+	#進入MariaDB後
+		
+		create database proxy;
+		use proxy;
+
+		#設定專用帳號
+		grant all privileges on proxy.* to 'proxy'@'localhost' identified by '[密碼]' with grant option;
+		flush privileges;
+
+		#建立table
+		create table domains( domain VARCHAR(100) NOT NULL,PRIMARY KEY (domain));
+		create table ips( ip VARCHAR(100) NOT NULL,PRIMARY KEY (ip));
+		
+		#設定完成，退出
+		exit
+		
+設定網頁
+------------------------------
+	cd /var/www/html
+
+	#取得權限
+	sudo chmod 777 . -R
+
+	將html的內容使用任何SFTP軟體全部放到文件夾中
+
+	#修改sql.php
+	vim sql.php
+	將$password = 後面改成設定資料庫時的密碼
 
 安裝V2RAY
 ------------------------------
@@ -50,38 +77,7 @@ raspberry pi
 
 (内容查看<https://github.com/killer-cc/Breakthrough-the-limit-of-router/blob/main/pi-home/updateV2RAY.py>)
 
-設定資料庫
-------------------------------
-	sudo mysql
 
-	#進入MariaDB後
-		
-		create database proxy;
-		use proxy;
-
-		#設定專用帳號
-		grant all privileges on proxy.* to 'proxy'@'localhost' identified by '[密碼]' with grant option;
-		flush privileges;
-
-		#建立table
-		create table domains( domain VARCHAR(100) NOT NULL,PRIMARY KEY (domain));
-		create table ips( ip VARCHAR(100) NOT NULL,PRIMARY KEY (ip));
-		
-		#設定完成，退出
-		exit
-
-設定網頁
-------------------------------
-	cd /var/www/html
-
-	#取得權限
-	sudo chmod 777 . -R
-
-	將html的內容使用任何SFTP軟體全部放到文件夾中
-
-	#修改sql.php
-	vim sql.php
-	將$password = 後面改成設定資料庫時的密碼
 
 使用方法
 ------------------------------
