@@ -61,6 +61,7 @@ mail.py (共筆)
 	sudo chmod 700 . -R
 
 ### 修改sql.php
+
 	sudo vim sql.php
 
 將$password = 後面改成設定資料庫時的密碼
@@ -71,29 +72,27 @@ mail.py (共筆)
 
 設定 V2RAY
 ------------------------------
-	sudo touch /usr/local/etc/v2ray/config.json.default
-
-	sudo vim /usr/local/etc/v2ray/config.json.default
-
-(内容查看[config.json.default](https://github.com/killer-cc/Breakthrough-the-wall-of-proxy-router/blob/main/v2ray-config/config.json.default/ "Title"))
+將[config.json.default](https://github.com/killer-cc/Breakthrough-the-wall-of-proxy-router/blob/main/v2ray-config/config.json.default/ "Title")放到/usr/local/etc/v2ray/config.json.default
 
 自行查看[V2RAY](https://www.v2fly.org/config/overview.html "Title")設定Outbound，並自行架設外部伺服器
+
+	sudo vim /usr/local/etc/v2ray/config.json.default
 
 設定開機啓動python
 ------------------------------
 	sudo vim /etc/rc.local
-把啟動命令放到/etc/rc.d/rc.local檔
 
-(内容查看[rc.local](https://github.com/killer-cc/Breakthrough-the-wall-of-proxy-router/blob/main/etc/rc.local/ "Title"))
+把[rc.local](https://github.com/killer-cc/Breakthrough-the-wall-of-proxy-router/blob/main/etc/rc.local/ "Title")的内容寫到檔案中
 
 	sudo chmod 744 /etc/rc.local
 
 設定自動寄送IP到Email的程式
 ------------------------------
 
-將[mail.py](https://github.com/killer-cc/Breakthrough-the-wall-of-proxy-router/blob/main/pi-home/mail.py/ "Title")) 放置到 /home/pi/mail.py
+將[mail.py](https://github.com/killer-cc/Breakthrough-the-wall-of-proxy-router/blob/main/pi-home/mail.py/ "Title") 放置到 /home/pi/mail.py
 
 記得將Google帳號密碼還有接收的Email改成自己的(mail.py的8到13行)，並將低安全性應用程式存取權開啟
+
 	vim /home/pi/mail.py
 
 設定自動更新Routing規則的程式
