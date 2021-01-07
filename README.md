@@ -90,17 +90,16 @@ mail.py (共筆)
 
 設定自動寄送IP到Email的程式
 ------------------------------
-	vim /home/pi/mail.py
 
-(内容查看[mail.py](https://github.com/killer-cc/Breakthrough-the-wall-of-proxy-router/blob/main/pi-home/mail.py/ "Title")) 
+將[mail.py](https://github.com/killer-cc/Breakthrough-the-wall-of-proxy-router/blob/main/pi-home/mail.py/ "Title")) 放置到 /home/pi/mail.py
 
 記得將Google帳號密碼還有接收的Email改成自己的(mail.py的8到13行)，並將低安全性應用程式存取權開啟
+	vim /home/pi/mail.py
 
 設定自動更新Routing規則的程式
 ------------------------------
-	vim /home/pi/updateV2RAY.py
 
-(内容查看[updateV2RAY.py](https://github.com/killer-cc/Breakthrough-the-wall-of-proxy-router/blob/main/pi-home/updateV2RAY.py/ "Title"))
+將[updateV2RAY.py](https://github.com/killer-cc/Breakthrough-the-wall-of-proxy-router/blob/main/pi-home/updateV2RAY.py/ "Title")放置到 /home/pi/updateV2Ray.py
 
 
 
