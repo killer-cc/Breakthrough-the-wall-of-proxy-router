@@ -108,4 +108,12 @@ mail.py (共筆)
 
 補充資料
 -------------------------
-<https://www.v2fly.org/config/overview.html>
+[V2Ray Install - Github:v2fly](https://github.com/v2fly/fhs-install-v2ray "Title")
+
+[V2Ray Document - v2fly.org](https://www.v2fly.org/config/overview.html "Title")
+
+[W3SCHOOLS](https://www.w3schools.com/ "Title")
+
+[Python3 Urllib - Python](https://docs.python.org/3/library/urllib.request.html#module-urllib.request "Title")
+
+[Python3 JSON - runoob.com](https://www.runoob.com/python/python-json.html "Title")
