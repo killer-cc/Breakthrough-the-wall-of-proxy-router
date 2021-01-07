@@ -105,3 +105,7 @@ mail.py (共筆)
 2. 選擇**Domain/IP**,輸入並保存
 3. 電腦(Firefox内建Socks proxy支援，Chrome需安裝插件)及手機使用Socks客戶端連接到 : **[raspberry_pi_IP]:1080**
 4. 完成
+
+補充資料
+-------------------------
+<https://www.v2fly.org/config/overview.html>
