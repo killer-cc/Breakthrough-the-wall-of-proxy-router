@@ -90,7 +90,7 @@ mail.py (共筆)
 
 將[mail.py](https://github.com/killer-cc/Breakthrough-the-wall-of-proxy-router/blob/main/pi-home/mail.py/ "Title") 放置到 /home/pi/mail.py
 
-記得將Google帳號密碼還有接收的Email改成自己的(mail.py的8到13行)，並將低安全性應用程式存取權開啟
+記得將Google帳號密碼還有接收的Email改成自己的(mail.py的8到13行)，並將Google的低安全性應用程式存取權開啟
 
 	vim /home/pi/mail.py
 
@@ -104,7 +104,7 @@ mail.py (共筆)
 使用方法
 ------------------------------
 1. 瀏覽器打開 : **http://[raspberry_pi_IP]**
-2. 選擇**Domain/IP**,輸入並保存
+2. 選擇**Domain/IP**，輸入並保存
 3. 電腦(Firefox内建Socks proxy支援，Chrome需安裝插件)及手機使用Socks客戶端連接到 : **[raspberry_pi_IP]:1080**
 4. 完成
 
