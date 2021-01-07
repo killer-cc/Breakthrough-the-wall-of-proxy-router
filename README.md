@@ -1,6 +1,17 @@
 raspberry pi
 ==============
 
+使用工具
+-------------
+Raspberry pi3
+Apache2 (Web Server)
+JQuery (Web Page AJAX)
+PHP (API)
+V2Ray (Proxy Server)
+Mariadb (Database)
+Python2&3
+mail.py (共筆)
+
 安裝 Apache PHP Mariadb Python3
 ------------------------------
 	sudo apt install apache2 php php-mysql mariadb-server mariadb-client python3 -y
