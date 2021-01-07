@@ -61,10 +61,9 @@ mail.py (共筆)
 	sudo chmod 700 . -R
 
 ### 修改sql.php
+將$password = 後面改成設定資料庫時的密碼
 
 	sudo vim sql.php
-
-將$password = 後面改成設定資料庫時的密碼
 
 安裝V2RAY
 ------------------------------
