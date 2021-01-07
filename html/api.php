@@ -20,6 +20,17 @@
 		}else{
 			echo json_encode(array("status"=>"exist"));
 		}
+	}else if ($action == "delData"){
+		if ($_POST["type"] == "domain"){
+			$sql = "DELETE FROM `domains` WHERE domain = '".$_POST["server"]."'";
+		}else{
+			$sql = "DELETE FROM `ips` WHERE ip = '".$_POST["server"]."'";
+		}
+		if (mysqli_query($conn,$sql)){
+			echo json_encode(array("status"=>"done"));
+		}else{
+			echo json_encode(array("status"=>"error"));
+		}
 	}
 
 	disconnectSQL($conn);
