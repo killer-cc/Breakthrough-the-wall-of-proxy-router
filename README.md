@@ -51,13 +51,18 @@ mail.py (共筆)
 	cd /var/www/html
 
 ### 取得權限
-	sudo chmod 777 . -R
+	sudo chmod 770 . -R
 
 ### 放置檔案
 將[html的內容](https://github.com/killer-cc/Breakthrough-the-wall-of-proxy-router/tree/main/html/ "Title")使用任何SFTP軟體全部放到/var/www/html中
 
+### 還原權限
+	sudo chmod www-data:www-data . -R
+	sudo chmod 700 . -R
+
 ### 修改sql.php
-	vim sql.php
+	sudo vim sql.php
+
 將$password = 後面改成設定資料庫時的密碼
 
 安裝V2RAY
