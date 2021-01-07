@@ -5,21 +5,28 @@ function loadProxyData(){
 	});
 }
 
+function deleteData(type,server){
+	$.post("api.php?action=delData",{type:type,server:server},function(data){
+		var jsondata = JSON.parse(data);
+		window.location = "./";
+	});
+}
+
 function updateList(){
 	if (window.proxyData == undefined){
 		loadProxyData();
 		setTimeout(updateList,200);
 	}else if (proxyData.domain != null || proxyData.ip != null){
-		$("table tbody").html("<tr><th>TYPE</th><th>IP / DOMAIN</th></tr>");
+		$("table tbody").html("<tr><th>TYPE</th><th>IP / DOMAIN</th><th>刪除</th></tr>");
 		if (proxyData.domain != null){
 			for (var i = 0; i < proxyData.domain.length; i++){
-				$("table tbody").html($("table tbody").html()+"<tr><td>Domain</td><td>"+proxyData.domain[i].domain+"</td></tr>");
+				$("table tbody").html($("table tbody").html()+"<tr><td>Domain</td><td>"+proxyData.domain[i].domain+"</td><td><button class=\"w3-button w3-red\" onclick=\"deleteData('domain','"+proxyData.domain[i].domain+"')\">刪除</button></td></tr>");
 			}
 		}
 		
 		if (proxyData.ip != null){
 			for (var i = 0; i < proxyData.ip.length; i++){
-				$("table tbody").html($("table tbody").html()+"<tr><td>IP</td><td>"+proxyData.ip[i].ip+"</td></tr>");
+				$("table tbody").html($("table tbody").html()+"<tr><td>IP</td><td>"+proxyData.ip[i].ip+"</td><td><button class=\"w3-button w3-red\" onclick=\"deleteData('ip','"+proxyData.ip[i].ip+"')\">刪除</button></td></tr>");
 			}
 		}
 	}else{
